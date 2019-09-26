@@ -119,7 +119,7 @@
                             <InArgument x:TypeArguments="x:String">["Status"]</InArgument>
                           </ui:FilterOperationArgument.Column>
                           <ui:FilterOperationArgument.Operand>
-                            <InArgument x:TypeArguments="x:String">["0"]</InArgument>
+                            <InArgument x:TypeArguments="x:String">["Open"]</InArgument>
                           </ui:FilterOperationArgument.Operand>
                         </ui:FilterOperationArgument>
                       </scg:List>
@@ -135,7 +135,7 @@
                       <OutArgument x:TypeArguments="sd:DataRow[]">[out_WIlist]</OutArgument>
                     </Assign.To>
                     <Assign.Value>
-                      <InArgument x:TypeArguments="sd:DataRow[]">[ExtractDataTable.Select("Type='WI4' AND Status='0'")]</InArgument>
+                      <InArgument x:TypeArguments="sd:DataRow[]">[ExtractDataTable.Select("Type='WI4' AND Status='Open'")]</InArgument>
                     </Assign.Value>
                   </Assign>
                   <ui:WriteRange AddHeaders="True" DataTable="[ExtractDataTable]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="334,115" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Sheet1" StartingCell="A1" WorkbookPath="Data\InputWI4Data.xlsx" />
