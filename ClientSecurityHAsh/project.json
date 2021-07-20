@@ -3,40 +3,64 @@
   "description": "Robotic Enterprise Framework",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.System.Activities": "[18.4.2]",
-    "UiPath.Credentials.Activities": "[1.1.6479.13204]",
-    "UiPath.UIAutomation.Activities": "[19.1.0]",
-    "CredentialManagement": "[1.0.2]",
     "ClosedXML": "[0.87.1]",
+    "CredentialManagement": "[1.0.2]",
     "UiPath.Cognitive.Activities": "[2.0.6716.19435]",
-    "UiPath.Excel.Activities": "[2.3.6682.26635]",
+    "UiPath.Credentials.Activities": "[1.1.6479.13204]",
     "UiPath.Database.Activities": "[1.1.6660.26865]",
-    "UiPath.IntelligentOCR.Activities": "[1.0.6725.18428]",
+    "UiPath.Excel.Activities": "[2.3.6682.26635]",
     "UiPath.FTP.Activities": "[1.0.6479.13206]",
+    "UiPath.IntelligentOCR.Activities": "[1.0.6725.18428]",
     "UiPath.Mail.Activities": "[1.1.6562.21018]",
     "UiPath.PDF.Activities": "[1.1.6732.21973]",
     "UiPath.Python.Activities": "[1.0.6716.23055]",
-    "UiPath.Word.Activities": "[1.1.6479.13205]",
-    "ABBYY.Flexicapture.ExternalExport": "[1.0.1]",
-    "Atalasoft.dotImage.Ocr.Abbyy.x64": "[11.1.0.1340]",
-    "Atalasoft.dotImage.Ocr.Abbyy.x86": "[11.1.0.1340]",
-    "AbbyyLS.Payments": "[3.1.0]",
-    "Xamarin.AbbyyRtr.iOS": "[1.0.6709.24753]",
-    "AbbyyLS.LanguageTag": "[1.3.1]"
+    "UiPath.System.Activities": "[21.4.1]",
+    "UiPath.UIAutomation.Activities": "[19.1.0]",
+    "UiPath.Word.Activities": "[1.1.6479.13205]"
   },
-  "schemaVersion": "3.2",
-  "studioVersion": "18.4.2.0",
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.6.0.0",
   "projectVersion": "1.0.0.0",
   "runtimeOptions": {
     "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
     "excludedLoggedData": [
       "Private:*",
       "*password*"
-    ]
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false
   },
-  "projectType": "Workflow",
-  "libraryOptions": {
-    "includeOriginalXaml": false,
-    "privateWorkflows": []
-  }
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "bff78be9-347e-4c3b-8d65-e480d11c7c51",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
 }
